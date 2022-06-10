@@ -1,0 +1,111 @@
+/* GENERAL STYLING */
+
+.fontChange {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.background {
+  background-color: black;
+  background-image: url("nebula.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+/* BELOW ARE ALL FONT ADJUSTMENTS */
+
+h1::before {
+  content: "*";
+  color: red;
+}
+
+h1::after {
+  content: "*";
+  color: red;
+}
+
+.bold-text {
+  font-weight: bold;
+}
+
+.white-text {
+  color: white;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.left-align {
+  display: block;
+  text-align: left;
+  width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.center-align {
+  display: block;
+  text-align: center;
+  width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.ul {
+  text-align: center;
+  list-style: inside;
+}
+
+.ul-align {
+}
+
+.ol {
+  list-style: decimal inside none;
+}
+
+.ol-align {
+}
+
+.size25 {
+  font-size: 25px;
+}
+
+.stroke {
+  text-shadow: -2px -2px 0 #000, 0 -2px 0 #000, 2px -2px 0 #000, 2px 0 0 #000,
+    2px 2px 0 #000, 0 2px 0 #000, -2px 2px 0 #000, -2px 0 0 #000;
+}
+
+.indent {
+  text-indent: 30px;
+}
+
+.pad {
+  padding-left: 60px;
+}
+
+.pad2 {
+  padding-left: 205px;
+}
+
+/* BELOW ARE IMAGE & BOX ADJUSTMENTS */
+
+.box {
+  background-color: black;
+  width: auto;
+  height: 120px;
+  margin: auto;
+  opacity: 50%;
+}
+
+.center-image {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 100px;
+  width: 20%;
+}
+
+.hr {
+  width: 20%;
+  color: rgb(68, 68, 68);
+}
